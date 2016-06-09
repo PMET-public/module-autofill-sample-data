@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <magentoese_autofill>
+            <general>
+              <enable_autofill>1</enable_autofill>
+            </general>
+            <persona_1>
+              <enable>1</enable>
+              <label>VIP</label>
+              <email_value>vip@thelumastory.com</email_value>
+              <password_value>password</password_value>
+              <firstname_value>Sharon</firstname_value>
+              <lastname_value>Reynolds</lastname_value>
+              <company_value></company_value>
+              <address_value>4346 Parkway Street</address_value>
+              <country_value>US</country_value>
+              <state_value>CA</state_value>
+              <city_value>San Diego</city_value>
+              <zip_value>92103</zip_value>
+              <telephone_value>484-555-1212</telephone_value>
+              <fax_value>484-555-1213</fax_value>
+              <cc_type>VI</cc_type>
+              <cc_number>4111111111111111</cc_number>
+              <cc_month>1</cc_month>
+              <cc_year>2020</cc_year>
+              <cc_verification_number>123</cc_verification_number>
+            </persona_1>
+            <persona_2>
+              <enable>1</enable>
+              <label>Runner</label>
+              <email_value>runner@thelumastory.com</email_value>
+              <password_value>password</password_value>
+              <firstname_value>Mark</firstname_value>
+              <lastname_value>Woodward</lastname_value>
+              <company_value></company_value>
+              <address_value>500 Buckhannan Avenue</address_value>
+              <country_value>US</country_value>
+              <state_value>NY</state_value>
+              <city_value>Ithaca</city_value>
+              <zip_value>92103</zip_value>
+              <telephone_value>484-555-1212</telephone_value>
+              <fax_value>484-555-1213</fax_value>
+              <cc_type>VI</cc_type>
+              <cc_number>4111111111111111</cc_number>
+              <cc_month>1</cc_month>
+              <cc_year>2020</cc_year>
+              <cc_verification_number>123</cc_verification_number>
+            </persona_2>
+            <persona_3>
+              <enable>1</enable>
+              <label>Yoga</label>
+              <email_value>yoga@thelumastory.com</email_value>
+              <password_value>password</password_value>
+              <firstname_value>Lisa</firstname_value>
+              <lastname_value>Firey</lastname_value>
+              <company_value></company_value>
+              <address_value>3903 Lewis Street</address_value>
+              <country_value>US</country_value>
+              <state_value>IL</state_value>
+              <city_value>Chicago</city_value>
+              <zip_value>60606</zip_value>
+              <telephone_value>484-555-1212</telephone_value>
+              <fax_value>484-555-1213</fax_value>
+              <cc_type>VI</cc_type>
+              <cc_number>4111111111111111</cc_number>
+              <cc_month>1</cc_month>
+              <cc_year>2020</cc_year>
+              <cc_verification_number>123</cc_verification_number>
+            </persona_3>
+        </magentoese_autofill>
+    </default>
+</config>

@@ -1,0 +1,14 @@
+{
+    "name": "magentoese/module-autofill-sample-data",
+    "type": "magento2-module",
+    "require": {
+        "magento/framework": "*",
+        "magentoese/module-autofill-sample-data": "*"
+    },
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "MagentoEse\\AutoFillSampleData\\": ""
+        }
+    }
+}
