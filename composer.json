@@ -3,7 +3,7 @@
     "type": "magento2-module",
     "require": {
         "magento/framework": "*",
-        "magentoese/module-autofill-sample-data": "*"
+        "magentoese/module-autofill": "*"
     },
     "autoload": {
         "files": [ "registration.php" ],
