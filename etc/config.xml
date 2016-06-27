@@ -16,7 +16,7 @@
               <company_value></company_value>
               <address_value>4346 Parkway Street</address_value>
               <country_value>US</country_value>
-              <state_value>CA</state_value>
+              <state_value>12</state_value>
               <city_value>San Diego</city_value>
               <zip_value>92103</zip_value>
               <telephone_value>484-555-1212</telephone_value>
@@ -37,7 +37,7 @@
               <company_value></company_value>
               <address_value>500 Buckhannan Avenue</address_value>
               <country_value>US</country_value>
-              <state_value>NY</state_value>
+              <state_value>43</state_value>
               <city_value>Ithaca</city_value>
               <zip_value>92103</zip_value>
               <telephone_value>484-555-1212</telephone_value>
@@ -58,7 +58,7 @@
               <company_value></company_value>
               <address_value>3903 Lewis Street</address_value>
               <country_value>US</country_value>
-              <state_value>IL</state_value>
+              <state_value>23</state_value>
               <city_value>Chicago</city_value>
               <zip_value>60606</zip_value>
               <telephone_value>484-555-1212</telephone_value>
