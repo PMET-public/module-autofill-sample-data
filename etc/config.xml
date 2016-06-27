@@ -10,7 +10,7 @@
               <enable>1</enable>
               <label>VIP</label>
               <email_value>vip@thelumastory.com</email_value>
-              <password_value>password</password_value>
+              <password_value>Password1</password_value>
               <firstname_value>Sharon</firstname_value>
               <lastname_value>Reynolds</lastname_value>
               <company_value></company_value>
@@ -31,7 +31,7 @@
               <enable>1</enable>
               <label>Runner</label>
               <email_value>runner@thelumastory.com</email_value>
-              <password_value>password</password_value>
+              <password_value>Password1</password_value>
               <firstname_value>Mark</firstname_value>
               <lastname_value>Woodward</lastname_value>
               <company_value></company_value>
@@ -52,7 +52,7 @@
               <enable>1</enable>
               <label>Yoga</label>
               <email_value>yoga@thelumastory.com</email_value>
-              <password_value>password</password_value>
+              <password_value>Password1</password_value>
               <firstname_value>Lisa</firstname_value>
               <lastname_value>Firey</lastname_value>
               <company_value></company_value>
