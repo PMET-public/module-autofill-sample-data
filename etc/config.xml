@@ -1,74 +1,255 @@
-<?xml version="1.0"?>
-
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
-    <default>
-        <magentoese_autofill>
-            <general>
-              <enable_autofill>1</enable_autofill>
-            </general>
-            <persona_1>
-              <enable>1</enable>
-              <label>VIP</label>
-              <email_value>vip@thelumastory.com</email_value>
-              <password_value>Password1</password_value>
-              <firstname_value>Sharon</firstname_value>
-              <lastname_value>Reynolds</lastname_value>
-              <company_value></company_value>
-              <address_value>4346 Parkway Street</address_value>
-              <country_value>US</country_value>
-              <state_value>12</state_value>
-              <city_value>San Diego</city_value>
-              <zip_value>92103</zip_value>
-              <telephone_value>484-555-1212</telephone_value>
-              <fax_value>484-555-1213</fax_value>
-              <cc_type>VI</cc_type>
-              <cc_number>4111111111111111</cc_number>
-              <cc_month>1</cc_month>
-              <cc_year>2020</cc_year>
-              <cc_verification_number>123</cc_verification_number>
-            </persona_1>
-            <persona_2>
-              <enable>1</enable>
-              <label>Runner</label>
-              <email_value>runner@thelumastory.com</email_value>
-              <password_value>Password1</password_value>
-              <firstname_value>Mark</firstname_value>
-              <lastname_value>Woodward</lastname_value>
-              <company_value></company_value>
-              <address_value>500 Buckhannan Avenue</address_value>
-              <country_value>US</country_value>
-              <state_value>43</state_value>
-              <city_value>Ithaca</city_value>
-              <zip_value>92103</zip_value>
-              <telephone_value>484-555-1212</telephone_value>
-              <fax_value>484-555-1213</fax_value>
-              <cc_type>VI</cc_type>
-              <cc_number>4111111111111111</cc_number>
-              <cc_month>1</cc_month>
-              <cc_year>2020</cc_year>
-              <cc_verification_number>123</cc_verification_number>
-            </persona_2>
-            <persona_3>
-              <enable>1</enable>
-              <label>Yoga</label>
-              <email_value>yoga@thelumastory.com</email_value>
-              <password_value>Password1</password_value>
-              <firstname_value>Lisa</firstname_value>
-              <lastname_value>Firey</lastname_value>
-              <company_value></company_value>
-              <address_value>3903 Lewis Street</address_value>
-              <country_value>US</country_value>
-              <state_value>23</state_value>
-              <city_value>Chicago</city_value>
-              <zip_value>60606</zip_value>
-              <telephone_value>484-555-1212</telephone_value>
-              <fax_value>484-555-1213</fax_value>
-              <cc_type>VI</cc_type>
-              <cc_number>4111111111111111</cc_number>
-              <cc_month>1</cc_month>
-              <cc_year>2020</cc_year>
-              <cc_verification_number>123</cc_verification_number>
-            </persona_3>
-        </magentoese_autofill>
-    </default>
+  <default>
+    <magentoese_autofill>
+      <general>
+        <enable_autofill>1</enable_autofill>
+        <persona_1>
+          <company_name_value>Prestige Worldwide</company_name_value>
+          <street_value>4346 Parkway Street</street_value>
+          <city_value>San Diego</city_value>
+          <country_id_value>USA</country_id_value>
+          <region_value>California</region_value>
+          <postcode_value>92103</postcode_value>
+          <telephone_value>484-555-1212</telephone_value>
+          <admin_email_value>ddoback@thelumastory.com</admin_email_value>
+          <company_customers_value>nhuff@thelumastory.com;dhuff@thelumastory.com;rdoback@thelumastory.com</company_customers_value>
+          <sales_rep_value>bhuff@thelumastory.com</sales_rep_value>
+        </persona_1>
+        <persona_2>
+          <company_name_value>Vandelay Industries</company_name_value>
+          <street_value>3903 Lewis Street</street_value>
+          <city_value>Chicago</city_value>
+          <country_id_value>USA</country_id_value>
+          <region_value>Illinois</region_value>
+          <postcode_value>60606</postcode_value>
+          <telephone_value>484-555-1212</telephone_value>
+          <admin_email_value>avandelay@thelumastory.com</admin_email_value>
+          <company_customers_value>ebenes@thelumastory.com;ckramer@thelumastory.com;gcostanza@thelumastory.com</company_customers_value>
+          <sales_rep_value>sross@thelumastory.com</sales_rep_value>
+        </persona_2>
+        <persona_3>
+          <company_name_value>Dunder Mifflin</company_name_value>
+          <street_value>3116 Chestnut Street</street_value>
+          <city_value>Tampa</city_value>
+          <country_id_value>USA</country_id_value>
+          <region_value>Florida</region_value>
+          <postcode_value>33619</postcode_value>
+          <telephone_value>484-555-1212</telephone_value>
+          <admin_email_value>jhalpert@thelumastory.com</admin_email_value>
+          <company_customers_value>pbeesly@thelumastory.com;shudson@thelumastory.com;kkapoor@thelumastory.com</company_customers_value>
+          <sales_rep_value>mscott@theluamstory.com</sales_rep_value>
+        </persona_3>
+        <persona_4>
+          <company_value>Prestige Worldwide</company_value>
+          <firstname_value>Dale</firstname_value>
+          <lastname_value>Doback</lastname_value>
+          <email_value>ddoback@thelumastory.com</email_value>
+          <password_value>Password1</password_value>
+          <street_value>7501 West Cermak Road</street_value>
+          <city_value>North Riverside</city_value>
+          <state_value>Illinois</state_value>
+          <country_id_value>USA</country_id_value>
+          <postcode_value>14753</postcode_value>
+          <telephone_value>484-555-1212</telephone_value>
+        </persona_4>
+        <persona_5>
+          <company_value>Prestige Worldwide</company_value>
+          <firstname_value>Nancy</firstname_value>
+          <lastname_value>Huff</lastname_value>
+          <email_value>nhuff@thelumastory.com</email_value>
+          <password_value>Password1</password_value>
+          <street_value>7501 West Cermak Road</street_value>
+          <city_value>North Riverside</city_value>
+          <state_value>Illinois</state_value>
+          <country_id_value>USA</country_id_value>
+          <postcode_value>14753</postcode_value>
+          <telephone_value>484-555-1212</telephone_value>
+        </persona_5>
+        <persona_6>
+          <company_value>Prestige Worldwide</company_value>
+          <firstname_value>Derek</firstname_value>
+          <lastname_value>Huff</lastname_value>
+          <email_value>dhuff@thelumastory.com</email_value>
+          <password_value>Password1</password_value>
+          <street_value>14000 Lakeside Circle</street_value>
+          <city_value>Sterling Heights</city_value>
+          <state_value>Michigan</state_value>
+          <country_id_value>USA</country_id_value>
+          <postcode_value>48313</postcode_value>
+          <telephone_value>484-555-1212</telephone_value>
+        </persona_6>
+        <persona_7>
+          <company_value>Prestige Worldwide</company_value>
+          <firstname_value>Robert</firstname_value>
+          <lastname_value>Doback</lastname_value>
+          <email_value>rdoback@thelumastory.com</email_value>
+          <password_value>Password1</password_value>
+          <street_value>14000 Lakeside Circle</street_value>
+          <city_value>Sterling Heights</city_value>
+          <state_value>Michigan</state_value>
+          <country_id_value>USA</country_id_value>
+          <postcode_value>48313</postcode_value>
+          <telephone_value>484-555-1212</telephone_value>
+        </persona_7>
+        <persona_8>
+          <company_value>Vandelay Industries</company_value>
+          <firstname_value>Art</firstname_value>
+          <lastname_value>Vandelay</lastname_value>
+          <email_value>avandelay@thelumastory.com</email_value>
+          <password_value>Password1</password_value>
+          <street_value>901 Avenue of the Americas</street_value>
+          <city_value>New York</city_value>
+          <state_value>New York</state_value>
+          <country_id_value>USA</country_id_value>
+          <postcode_value>10001</postcode_value>
+          <telephone_value>484-555-1212</telephone_value>
+        </persona_8>
+        <persona_9>
+          <company_value>Vandelay Industries</company_value>
+          <firstname_value>Elaine</firstname_value>
+          <lastname_value>Benes</lastname_value>
+          <email_value>ebenes@thelumastory.com</email_value>
+          <password_value>Password1</password_value>
+          <street_value>901 Avenue of the Americas</street_value>
+          <city_value>New York</city_value>
+          <state_value>New York</state_value>
+          <country_id_value>USA</country_id_value>
+          <postcode_value>10001</postcode_value>
+          <telephone_value>484-555-1212</telephone_value>
+        </persona_9>
+        <persona_10>
+          <company_value>Vandelay Industries</company_value>
+          <firstname_value>Cosmo</firstname_value>
+          <lastname_value>Kramer</lastname_value>
+          <email_value>ckramer@thelumastory.com</email_value>
+          <password_value>Password1</password_value>
+          <street_value>19501 Biscayne Boulevard</street_value>
+          <city_value>Adventura</city_value>
+          <state_value>Florida</state_value>
+          <country_id_value>USA</country_id_value>
+          <postcode_value>33180</postcode_value>
+          <telephone_value>484-555-1212</telephone_value>
+        </persona_10>
+        <persona_11>
+          <company_value>Vandelay Industries</company_value>
+          <firstname_value>George</firstname_value>
+          <lastname_value>Costanza</lastname_value>
+          <email_value>gcostanza@thelumastory.com</email_value>
+          <password_value>Password1</password_value>
+          <street_value>19501 Biscayne Boulevard</street_value>
+          <city_value>Adventura</city_value>
+          <state_value>Florida</state_value>
+          <country_id_value>USA</country_id_value>
+          <postcode_value>33180</postcode_value>
+          <telephone_value>484-555-1212</telephone_value>
+        </persona_11>
+        <persona_12>
+          <company_value>Dunder Mifflin</company_value>
+          <firstname_value>Jim</firstname_value>
+          <lastname_value>Halpert</lastname_value>
+          <email_value>jhalpert@thelumastory.com</email_value>
+          <password_value>Password1</password_value>
+          <street_value>300 Mall at Steamtown</street_value>
+          <city_value>Scranton</city_value>
+          <state_value>Pennsylvania</state_value>
+          <country_id_value>USA</country_id_value>
+          <postcode_value>18503</postcode_value>
+          <telephone_value>484-555-1212</telephone_value>
+        </persona_12>
+        <persona_13>
+          <company_value>Dunder Mifflin</company_value>
+          <firstname_value>Pam</firstname_value>
+          <lastname_value>Beesly</lastname_value>
+          <email_value>pbeesly@thelumastory.com</email_value>
+          <password_value>Password1</password_value>
+          <street_value>300 Mall at Steamtown</street_value>
+          <city_value>Scranton</city_value>
+          <state_value>Pennsylvania</state_value>
+          <country_id_value>USA</country_id_value>
+          <postcode_value>18503</postcode_value>
+          <telephone_value>484-555-1212</telephone_value>
+        </persona_13>
+        <persona_14>
+          <company_value>Dunder Mifflin</company_value>
+          <firstname_value>Stanley</firstname_value>
+          <lastname_value>Hudson</lastname_value>
+          <email_value>shudson@thelumastory.com</email_value>
+          <password_value>Password1</password_value>
+          <street_value>310 Daniel Webster Highway</street_value>
+          <city_value>Nashua</city_value>
+          <state_value>New Hampshire</state_value>
+          <country_id_value>USA</country_id_value>
+          <postcode_value>03063</postcode_value>
+          <telephone_value>484-555-1212</telephone_value>
+        </persona_14>
+        <persona_15>
+          <company_value>Dunder Mifflin</company_value>
+          <firstname_value>Kelly</firstname_value>
+          <lastname_value>Kapoor</lastname_value>
+          <email_value>kkapoor@thelumastory.com</email_value>
+          <password_value>Password1</password_value>
+          <street_value>310 Daniel Webster Highway</street_value>
+          <city_value>Nashua</city_value>
+          <state_value>New Hampshire</state_value>
+          <country_id_value>USA</country_id_value>
+          <postcode_value>03063</postcode_value>
+          <telephone_value>484-555-1212</telephone_value>
+        </persona_15>
+        <persona_16>
+          <company_value>Prestige Worldwide</company_value>
+          <email_value>bhuff@thelumastory.com</email_value>
+          <username_value>bhuff</username_value>
+          <firstname_value>Brendan</firstname_value>
+          <lastname_value>Huff</lastname_value>
+          <password_value>Password1</password_value>
+        </persona_16>
+        <persona_17>
+          <company_value>Vandelay Industries</company_value>
+          <email_value>sross@thelumastory.com</email_value>
+          <username_value>sross</username_value>
+          <firstname_value>Susan</firstname_value>
+          <lastname_value>Ross</lastname_value>
+          <password_value>Password1</password_value>
+        </persona_17>
+        <persona_18>
+          <company_value>Dunder Mifflin</company_value>
+          <email_value>mscott@theluamstory.com</email_value>
+          <username_value>mscott</username_value>
+          <firstname_value>Michael</firstname_value>
+          <lastname_value>Scott</lastname_value>
+          <password_value>Password1</password_value>
+        </persona_18>
+        <persona_19>
+          <company_name_value>Prestige Worldwide</company_name_value>
+          <name_value>North Riverside</name_value>
+          <members_value>ddoback@thelumastory.com;nhuff@thelumastory.com</members_value>
+        </persona_19>
+        <persona_20>
+          <company_name_value>Prestige Worldwide</company_name_value>
+          <name_value>Sterling Heights</name_value>
+          <members_value>dhuff@thelumastory.com;rdoback@thelumastory.com</members_value>
+        </persona_20>
+        <persona_21>
+          <company_name_value>Vandelay Industries</company_name_value>
+          <name_value>Manhattan</name_value>
+          <members_value>avandelay@thelumastory.com;ebenes@thelumastory.com</members_value>
+        </persona_21>
+        <persona_22>
+          <company_name_value>Vandelay Industries</company_name_value>
+          <name_value>Adventura</name_value>
+          <members_value>ckramer@thelumastory.com;gcostanza@thelumastory.com</members_value>
+        </persona_22>
+        <persona_23>
+          <company_name_value>Dunder Mifflin</company_name_value>
+          <name_value>Scranton</name_value>
+          <members_value>jhalpert@thelumastory.com;pbeesly@thelumastory.com</members_value>
+        </persona_23>
+        <persona_24>
+          <company_name_value>Dunder Mifflin</company_name_value>
+          <name_value>Nashua</name_value>
+          <members_value>shudson@thelumastory.com;kkapoor@thelumastory.com</members_value>
+        </persona_24>
+      </general>
+    </magentoese_autofill>
+  </default>
 </config>
