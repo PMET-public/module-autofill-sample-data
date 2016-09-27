@@ -1,45 +1,56 @@
+<?xml version="1.0"?>
+
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
-  <default>
-    <magentoese_autofill>
-      <general>
-        <enable_autofill>1</enable_autofill>
-        <persona_1>
-          <company_name_value>Prestige Worldwide</company_name_value>
+    <default>
+        <magentoese_autofill>
+            <general>
+              <enable_autofill>1</enable_autofill>
+            </general>
+            <persona_1>
+          <enable>1</enable>
+          <label>Prestige Worldwide</label>
           <street_value>4346 Parkway Street</street_value>
           <city_value>San Diego</city_value>
           <country_id_value>USA</country_id_value>
           <region_value>California</region_value>
           <postcode_value>92103</postcode_value>
           <telephone_value>484-555-1212</telephone_value>
-          <admin_email_value>ddoback@thelumastory.com</admin_email_value>
+          <email_value>ddoback@thelumastory.com</email_value>
           <company_customers_value>nhuff@thelumastory.com;dhuff@thelumastory.com;rdoback@thelumastory.com</company_customers_value>
           <sales_rep_value>bhuff@thelumastory.com</sales_rep_value>
+          <password_value>Password1</password_value>
         </persona_1>
         <persona_2>
-          <company_name_value>Vandelay Industries</company_name_value>
+          <enable>1</enable>
+          <label>Vandelay Industries</label>
           <street_value>3903 Lewis Street</street_value>
           <city_value>Chicago</city_value>
           <country_id_value>USA</country_id_value>
           <region_value>Illinois</region_value>
           <postcode_value>60606</postcode_value>
           <telephone_value>484-555-1212</telephone_value>
-          <admin_email_value>avandelay@thelumastory.com</admin_email_value>
+          <email_value>avandelay@thelumastory.com</email_value>
           <company_customers_value>ebenes@thelumastory.com;ckramer@thelumastory.com;gcostanza@thelumastory.com</company_customers_value>
           <sales_rep_value>sross@thelumastory.com</sales_rep_value>
+          <password_value>Password1</password_value>
         </persona_2>
         <persona_3>
-          <company_name_value>Dunder Mifflin</company_name_value>
+          <enable>1</enable>
+          <label>Dunder Mifflin</label>
           <street_value>3116 Chestnut Street</street_value>
           <city_value>Tampa</city_value>
           <country_id_value>USA</country_id_value>
           <region_value>Florida</region_value>
           <postcode_value>33619</postcode_value>
           <telephone_value>484-555-1212</telephone_value>
-          <admin_email_value>jhalpert@thelumastory.com</admin_email_value>
+          <email_value>jhalpert@thelumastory.com</email_value>
           <company_customers_value>pbeesly@thelumastory.com;shudson@thelumastory.com;kkapoor@thelumastory.com</company_customers_value>
           <sales_rep_value>mscott@theluamstory.com</sales_rep_value>
+          <password_value>Password1</password_value>
         </persona_3>
         <persona_4>
+          <enable>1</enable>
+          <label>Dale Doback - PW</label>
           <company_value>Prestige Worldwide</company_value>
           <firstname_value>Dale</firstname_value>
           <lastname_value>Doback</lastname_value>
@@ -53,6 +64,8 @@
           <telephone_value>484-555-1212</telephone_value>
         </persona_4>
         <persona_5>
+          <enable>1</enable>
+          <label>Nancy Huff - PW</label>
           <company_value>Prestige Worldwide</company_value>
           <firstname_value>Nancy</firstname_value>
           <lastname_value>Huff</lastname_value>
@@ -66,6 +79,8 @@
           <telephone_value>484-555-1212</telephone_value>
         </persona_5>
         <persona_6>
+          <enable>1</enable>
+          <label>Derek Huff - PW</label>
           <company_value>Prestige Worldwide</company_value>
           <firstname_value>Derek</firstname_value>
           <lastname_value>Huff</lastname_value>
@@ -79,6 +94,8 @@
           <telephone_value>484-555-1212</telephone_value>
         </persona_6>
         <persona_7>
+          <enable>1</enable>
+          <label>Robert Doback - PW</label>
           <company_value>Prestige Worldwide</company_value>
           <firstname_value>Robert</firstname_value>
           <lastname_value>Doback</lastname_value>
@@ -92,6 +109,8 @@
           <telephone_value>484-555-1212</telephone_value>
         </persona_7>
         <persona_8>
+          <enable>1</enable>
+          <label>Art Vandelay - VI</label>
           <company_value>Vandelay Industries</company_value>
           <firstname_value>Art</firstname_value>
           <lastname_value>Vandelay</lastname_value>
@@ -105,6 +124,8 @@
           <telephone_value>484-555-1212</telephone_value>
         </persona_8>
         <persona_9>
+          <enable>1</enable>
+          <label>Elaine Benes - VI</label>
           <company_value>Vandelay Industries</company_value>
           <firstname_value>Elaine</firstname_value>
           <lastname_value>Benes</lastname_value>
@@ -118,6 +139,8 @@
           <telephone_value>484-555-1212</telephone_value>
         </persona_9>
         <persona_10>
+          <enable>1</enable>
+          <label>Cosmo Kramer - VI</label>
           <company_value>Vandelay Industries</company_value>
           <firstname_value>Cosmo</firstname_value>
           <lastname_value>Kramer</lastname_value>
@@ -131,6 +154,8 @@
           <telephone_value>484-555-1212</telephone_value>
         </persona_10>
         <persona_11>
+          <enable>1</enable>
+          <label>George Costanza - VI</label>
           <company_value>Vandelay Industries</company_value>
           <firstname_value>George</firstname_value>
           <lastname_value>Costanza</lastname_value>
@@ -144,6 +169,8 @@
           <telephone_value>484-555-1212</telephone_value>
         </persona_11>
         <persona_12>
+          <enable>1</enable>
+          <label>Jim Mifflin - DM</label>
           <company_value>Dunder Mifflin</company_value>
           <firstname_value>Jim</firstname_value>
           <lastname_value>Halpert</lastname_value>
@@ -157,6 +184,8 @@
           <telephone_value>484-555-1212</telephone_value>
         </persona_12>
         <persona_13>
+          <enable>1</enable>
+          <label>Pam Beesly - DM</label>
           <company_value>Dunder Mifflin</company_value>
           <firstname_value>Pam</firstname_value>
           <lastname_value>Beesly</lastname_value>
@@ -170,6 +199,8 @@
           <telephone_value>484-555-1212</telephone_value>
         </persona_13>
         <persona_14>
+          <enable>1</enable>
+          <label>Stanley Hudson - DM</label>
           <company_value>Dunder Mifflin</company_value>
           <firstname_value>Stanley</firstname_value>
           <lastname_value>Hudson</lastname_value>
@@ -183,6 +214,8 @@
           <telephone_value>484-555-1212</telephone_value>
         </persona_14>
         <persona_15>
+          <enable>1</enable>
+          <label>Kelly Kapoor - DM</label>
           <company_value>Dunder Mifflin</company_value>
           <firstname_value>Kelly</firstname_value>
           <lastname_value>Kapoor</lastname_value>
@@ -249,7 +282,6 @@
           <name_value>Nashua</name_value>
           <members_value>shudson@thelumastory.com;kkapoor@thelumastory.com</members_value>
         </persona_24>
-      </general>
     </magentoese_autofill>
   </default>
 </config>
