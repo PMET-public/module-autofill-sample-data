@@ -228,60 +228,124 @@
           <postcode_value>03063</postcode_value>
           <telephone_value>484-555-1212</telephone_value>
         </persona_15>
-        <persona_16>
+          <persona_16>
+            <enable>1</enable>
+            <label>B2C- Sharon Reynolds</label>
+            <email_value>vip@thelumastory.com</email_value>
+            <password_value>Password1</password_value>
+            <firstname_value>Sharon</firstname_value>
+            <lastname_value>Reynolds</lastname_value>
+            <company_value></company_value>
+            <address_value>4346 Parkway Street</address_value>
+            <country_value>US</country_value>
+            <state_value>12</state_value>
+            <city_value>San Diego</city_value>
+            <zip_value>92103</zip_value>
+            <telephone_value>484-555-1212</telephone_value>
+            <fax_value>484-555-1213</fax_value>
+            <cc_type>VI</cc_type>
+            <cc_number>4111111111111111</cc_number>
+            <cc_month>1</cc_month>
+            <cc_year>2020</cc_year>
+            <cc_verification_number>123</cc_verification_number>
+          </persona_16>
+          <persona_17>
+            <enable>1</enable>
+            <label>B2C - Mark Woodward</label>
+            <email_value>runner@thelumastory.com</email_value>
+            <password_value>Password1</password_value>
+            <firstname_value>Mark</firstname_value>
+            <lastname_value>Woodward</lastname_value>
+            <company_value></company_value>
+            <address_value>500 Buckhannan Avenue</address_value>
+            <country_value>US</country_value>
+            <state_value>43</state_value>
+            <city_value>Ithaca</city_value>
+            <zip_value>92103</zip_value>
+            <telephone_value>484-555-1212</telephone_value>
+            <fax_value>484-555-1213</fax_value>
+            <cc_type>VI</cc_type>
+            <cc_number>4111111111111111</cc_number>
+            <cc_month>1</cc_month>
+            <cc_year>2020</cc_year>
+            <cc_verification_number>123</cc_verification_number>
+          </persona_17>
+          <persona_18>
+            <enable>1</enable>
+            <label>B2C - Lisa Firey</label>
+            <email_value>yoga@thelumastory.com</email_value>
+            <password_value>Password1</password_value>
+            <firstname_value>Lisa</firstname_value>
+            <lastname_value>Firey</lastname_value>
+            <company_value></company_value>
+            <address_value>3903 Lewis Street</address_value>
+            <country_value>US</country_value>
+            <state_value>23</state_value>
+            <city_value>Chicago</city_value>
+            <zip_value>60606</zip_value>
+            <telephone_value>484-555-1212</telephone_value>
+            <fax_value>484-555-1213</fax_value>
+            <cc_type>VI</cc_type>
+            <cc_number>4111111111111111</cc_number>
+            <cc_month>1</cc_month>
+            <cc_year>2020</cc_year>
+            <cc_verification_number>123</cc_verification_number>
+          </persona_18>
+        <persona_19>
           <company_value>Prestige Worldwide</company_value>
           <email_value>bhuff@thelumastory.com</email_value>
           <username_value>bhuff</username_value>
           <firstname_value>Brendan</firstname_value>
           <lastname_value>Huff</lastname_value>
           <password_value>Password1</password_value>
-        </persona_16>
-        <persona_17>
+        </persona_19>
+        <persona_20>
           <company_value>Vandelay Industries</company_value>
           <email_value>sross@thelumastory.com</email_value>
           <username_value>sross</username_value>
           <firstname_value>Susan</firstname_value>
           <lastname_value>Ross</lastname_value>
           <password_value>Password1</password_value>
-        </persona_17>
-        <persona_18>
+        </persona_20>
+        <persona_21>
           <company_value>Dunder Mifflin</company_value>
           <email_value>mscott@theluamstory.com</email_value>
           <username_value>mscott</username_value>
           <firstname_value>Michael</firstname_value>
           <lastname_value>Scott</lastname_value>
           <password_value>Password1</password_value>
-        </persona_18>
-        <persona_19>
+        </persona_21>
+        <persona_22>
           <company_name_value>Prestige Worldwide</company_name_value>
           <name_value>North Riverside</name_value>
           <members_value>ddoback@thelumastory.com;nhuff@thelumastory.com</members_value>
-        </persona_19>
-        <persona_20>
+        </persona_22>
+        <persona_23>
           <company_name_value>Prestige Worldwide</company_name_value>
           <name_value>Sterling Heights</name_value>
           <members_value>dhuff@thelumastory.com;rdoback@thelumastory.com</members_value>
-        </persona_20>
-        <persona_21>
+        </persona_23>
+        <persona_24>
           <company_name_value>Vandelay Industries</company_name_value>
           <name_value>Manhattan</name_value>
           <members_value>avandelay@thelumastory.com;ebenes@thelumastory.com</members_value>
-        </persona_21>
-        <persona_22>
+        </persona_24>
+        <persona_25>
           <company_name_value>Vandelay Industries</company_name_value>
           <name_value>Adventura</name_value>
           <members_value>ckramer@thelumastory.com;gcostanza@thelumastory.com</members_value>
-        </persona_22>
-        <persona_23>
+        </persona_25>
+        <persona_26>
           <company_name_value>Dunder Mifflin</company_name_value>
           <name_value>Scranton</name_value>
           <members_value>jhalpert@thelumastory.com;pbeesly@thelumastory.com</members_value>
-        </persona_23>
-        <persona_24>
+        </persona_26>
+        <persona_27>
           <company_name_value>Dunder Mifflin</company_name_value>
           <name_value>Nashua</name_value>
           <members_value>shudson@thelumastory.com;kkapoor@thelumastory.com</members_value>
-        </persona_24>
+        </persona_27>
+
     </magentoese_autofill>
   </default>
 </config>
