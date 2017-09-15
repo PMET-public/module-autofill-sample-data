@@ -252,7 +252,7 @@
           <persona_17>
             <enable>1</enable>
             <label>B2C - Mark Woodward</label>
-            <email_value>runner@thelumastory.com</email_value>
+            <email_value>mwoodward@thelumastory.com</email_value>
             <password_value>Password1</password_value>
             <firstname_value>Mark</firstname_value>
             <lastname_value>Woodward</lastname_value>
@@ -273,7 +273,7 @@
           <persona_18>
             <enable>1</enable>
             <label>B2C - Lisa Firey</label>
-            <email_value>yoga@thelumastory.com</email_value>
+            <email_value>lfirey@thelumastory.com</email_value>
             <password_value>Password1</password_value>
             <firstname_value>Lisa</firstname_value>
             <lastname_value>Firey</lastname_value>
