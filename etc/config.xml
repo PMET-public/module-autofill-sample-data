@@ -6,21 +6,7 @@
             <general>
               <enable_autofill>1</enable_autofill>
             </general>
-            <persona_1>
-          <enable>1</enable>
-          <label>Prestige Worldwide</label>
-          <street_value>4346 Parkway Street</street_value>
-          <city_value>San Diego</city_value>
-          <country_id_value>USA</country_id_value>
-          <region_value>California</region_value>
-          <postcode_value>92103</postcode_value>
-          <telephone_value>484-555-1212</telephone_value>
-          <email_value>ddoback@thelumastory.com</email_value>
-          <company_customers_value>nhuff@thelumastory.com;dhuff@thelumastory.com;rdoback@thelumastory.com</company_customers_value>
-          <sales_rep_value>bhuff@thelumastory.com</sales_rep_value>
-          <password_value>Password1</password_value>
-        </persona_1>
-        <persona_2>
+        <persona_1>
           <enable>1</enable>
           <label>Vandelay Industries</label>
           <street_value>3903 Lewis Street</street_value>
@@ -33,8 +19,8 @@
           <company_customers_value>ebenes@thelumastory.com;ckramer@thelumastory.com;gcostanza@thelumastory.com</company_customers_value>
           <sales_rep_value>sross@thelumastory.com</sales_rep_value>
           <password_value>Password1</password_value>
-        </persona_2>
-        <persona_3>
+        </persona_1>
+        <persona_2>
           <enable>1</enable>
           <label>Dunder Mifflin</label>
           <street_value>3116 Chestnut Street</street_value>
@@ -47,68 +33,8 @@
           <company_customers_value>pbeesly@thelumastory.com;shudson@thelumastory.com;kkapoor@thelumastory.com</company_customers_value>
           <sales_rep_value>mscott@theluamstory.com</sales_rep_value>
           <password_value>Password1</password_value>
-        </persona_3>
-        <persona_4>
-          <enable>1</enable>
-          <label>Dale Doback - PW</label>
-          <company_value>Prestige Worldwide</company_value>
-          <firstname_value>Dale</firstname_value>
-          <lastname_value>Doback</lastname_value>
-          <email_value>ddoback@thelumastory.com</email_value>
-          <password_value>Password1</password_value>
-          <street_value>7501 West Cermak Road</street_value>
-          <city_value>North Riverside</city_value>
-          <state_value>Illinois</state_value>
-          <country_id_value>USA</country_id_value>
-          <postcode_value>14753</postcode_value>
-          <telephone_value>484-555-1212</telephone_value>
-        </persona_4>
-        <persona_5>
-          <enable>1</enable>
-          <label>Nancy Huff - PW</label>
-          <company_value>Prestige Worldwide</company_value>
-          <firstname_value>Nancy</firstname_value>
-          <lastname_value>Huff</lastname_value>
-          <email_value>nhuff@thelumastory.com</email_value>
-          <password_value>Password1</password_value>
-          <street_value>7501 West Cermak Road</street_value>
-          <city_value>North Riverside</city_value>
-          <state_value>Illinois</state_value>
-          <country_id_value>USA</country_id_value>
-          <postcode_value>14753</postcode_value>
-          <telephone_value>484-555-1212</telephone_value>
-        </persona_5>
-        <persona_6>
-          <enable>1</enable>
-          <label>Derek Huff - PW</label>
-          <company_value>Prestige Worldwide</company_value>
-          <firstname_value>Derek</firstname_value>
-          <lastname_value>Huff</lastname_value>
-          <email_value>dhuff@thelumastory.com</email_value>
-          <password_value>Password1</password_value>
-          <street_value>14000 Lakeside Circle</street_value>
-          <city_value>Sterling Heights</city_value>
-          <state_value>Michigan</state_value>
-          <country_id_value>USA</country_id_value>
-          <postcode_value>48313</postcode_value>
-          <telephone_value>484-555-1212</telephone_value>
-        </persona_6>
-        <persona_7>
-          <enable>1</enable>
-          <label>Robert Doback - PW</label>
-          <company_value>Prestige Worldwide</company_value>
-          <firstname_value>Robert</firstname_value>
-          <lastname_value>Doback</lastname_value>
-          <email_value>rdoback@thelumastory.com</email_value>
-          <password_value>Password1</password_value>
-          <street_value>14000 Lakeside Circle</street_value>
-          <city_value>Sterling Heights</city_value>
-          <state_value>Michigan</state_value>
-          <country_id_value>USA</country_id_value>
-          <postcode_value>48313</postcode_value>
-          <telephone_value>484-555-1212</telephone_value>
-        </persona_7>
-        <persona_8>
+        </persona_2>
+        <persona_3>
           <enable>1</enable>
           <label>Art Vandelay - VI</label>
           <company_value>Vandelay Industries</company_value>
@@ -122,8 +48,8 @@
           <country_id_value>USA</country_id_value>
           <postcode_value>10001</postcode_value>
           <telephone_value>484-555-1212</telephone_value>
-        </persona_8>
-        <persona_9>
+        </persona_3>
+        <persona_4>
           <enable>1</enable>
           <label>Elaine Benes - VI</label>
           <company_value>Vandelay Industries</company_value>
@@ -137,8 +63,8 @@
           <country_id_value>USA</country_id_value>
           <postcode_value>10001</postcode_value>
           <telephone_value>484-555-1212</telephone_value>
-        </persona_9>
-        <persona_10>
+        </persona_4>
+        <persona_5>
           <enable>1</enable>
           <label>Cosmo Kramer - VI</label>
           <company_value>Vandelay Industries</company_value>
@@ -152,8 +78,8 @@
           <country_id_value>USA</country_id_value>
           <postcode_value>33180</postcode_value>
           <telephone_value>484-555-1212</telephone_value>
-        </persona_10>
-        <persona_11>
+        </persona_5>
+        <persona_6>
           <enable>1</enable>
           <label>George Costanza - VI</label>
           <company_value>Vandelay Industries</company_value>
@@ -167,10 +93,10 @@
           <country_id_value>USA</country_id_value>
           <postcode_value>33180</postcode_value>
           <telephone_value>484-555-1212</telephone_value>
-        </persona_11>
-        <persona_12>
+        </persona_6>
+        <persona_7>
           <enable>1</enable>
-          <label>Jim Mifflin - DM</label>
+          <label>Jim Halpert - DM</label>
           <company_value>Dunder Mifflin</company_value>
           <firstname_value>Jim</firstname_value>
           <lastname_value>Halpert</lastname_value>
@@ -182,8 +108,8 @@
           <country_id_value>USA</country_id_value>
           <postcode_value>18503</postcode_value>
           <telephone_value>484-555-1212</telephone_value>
-        </persona_12>
-        <persona_13>
+        </persona_7>
+        <persona_8>
           <enable>1</enable>
           <label>Pam Beesly - DM</label>
           <company_value>Dunder Mifflin</company_value>
@@ -197,8 +123,8 @@
           <country_id_value>USA</country_id_value>
           <postcode_value>18503</postcode_value>
           <telephone_value>484-555-1212</telephone_value>
-        </persona_13>
-        <persona_14>
+        </persona_8>
+        <persona_9>
           <enable>1</enable>
           <label>Stanley Hudson - DM</label>
           <company_value>Dunder Mifflin</company_value>
@@ -212,8 +138,8 @@
           <country_id_value>USA</country_id_value>
           <postcode_value>03063</postcode_value>
           <telephone_value>484-555-1212</telephone_value>
-        </persona_14>
-        <persona_15>
+        </persona_9>
+        <persona_10>
           <enable>1</enable>
           <label>Kelly Kapoor - DM</label>
           <company_value>Dunder Mifflin</company_value>
@@ -227,8 +153,8 @@
           <country_id_value>USA</country_id_value>
           <postcode_value>03063</postcode_value>
           <telephone_value>484-555-1212</telephone_value>
-        </persona_15>
-          <persona_16>
+        </persona_10>
+          <persona_11>
             <enable>1</enable>
             <label>B2C- Sharon Reynolds</label>
             <email_value>vip@thelumastory.com</email_value>
@@ -248,8 +174,8 @@
             <cc_month>1</cc_month>
             <cc_year>2020</cc_year>
             <cc_verification_number>123</cc_verification_number>
-          </persona_16>
-          <persona_17>
+          </persona_11>
+          <persona_12>
             <enable>1</enable>
             <label>B2C - Mark Woodward</label>
             <email_value>mwoodward@thelumastory.com</email_value>
@@ -269,8 +195,8 @@
             <cc_month>1</cc_month>
             <cc_year>2020</cc_year>
             <cc_verification_number>123</cc_verification_number>
-          </persona_17>
-          <persona_18>
+          </persona_12>
+          <persona_13>
             <enable>1</enable>
             <label>B2C - Lisa Firey</label>
             <email_value>lfirey@thelumastory.com</email_value>
@@ -290,61 +216,43 @@
             <cc_month>1</cc_month>
             <cc_year>2020</cc_year>
             <cc_verification_number>123</cc_verification_number>
-          </persona_18>
-        <persona_19>
-          <company_value>Prestige Worldwide</company_value>
-          <email_value>bhuff@thelumastory.com</email_value>
-          <username_value>bhuff</username_value>
-          <firstname_value>Brendan</firstname_value>
-          <lastname_value>Huff</lastname_value>
-          <password_value>Password1</password_value>
-        </persona_19>
-        <persona_20>
+          </persona_13>
+        <persona_14>
           <company_value>Vandelay Industries</company_value>
           <email_value>sross@thelumastory.com</email_value>
           <username_value>sross</username_value>
           <firstname_value>Susan</firstname_value>
           <lastname_value>Ross</lastname_value>
           <password_value>Password1</password_value>
-        </persona_20>
-        <persona_21>
+        </persona_14>
+        <persona_15>
           <company_value>Dunder Mifflin</company_value>
           <email_value>mscott@theluamstory.com</email_value>
           <username_value>mscott</username_value>
           <firstname_value>Michael</firstname_value>
           <lastname_value>Scott</lastname_value>
           <password_value>Password1</password_value>
-        </persona_21>
-        <persona_22>
-          <company_name_value>Prestige Worldwide</company_name_value>
-          <name_value>North Riverside</name_value>
-          <members_value>ddoback@thelumastory.com;nhuff@thelumastory.com</members_value>
-        </persona_22>
-        <persona_23>
-          <company_name_value>Prestige Worldwide</company_name_value>
-          <name_value>Sterling Heights</name_value>
-          <members_value>dhuff@thelumastory.com;rdoback@thelumastory.com</members_value>
-        </persona_23>
-        <persona_24>
+        </persona_15>
+        <persona_16>
           <company_name_value>Vandelay Industries</company_name_value>
           <name_value>Manhattan</name_value>
           <members_value>avandelay@thelumastory.com;ebenes@thelumastory.com</members_value>
-        </persona_24>
-        <persona_25>
+        </persona_16>
+        <persona_17>
           <company_name_value>Vandelay Industries</company_name_value>
           <name_value>Adventura</name_value>
           <members_value>ckramer@thelumastory.com;gcostanza@thelumastory.com</members_value>
-        </persona_25>
-        <persona_26>
+        </persona_17>
+        <persona_18>
           <company_name_value>Dunder Mifflin</company_name_value>
           <name_value>Scranton</name_value>
           <members_value>jhalpert@thelumastory.com;pbeesly@thelumastory.com</members_value>
-        </persona_26>
-        <persona_27>
+        </persona_18>
+        <persona_19>
           <company_name_value>Dunder Mifflin</company_name_value>
           <name_value>Nashua</name_value>
           <members_value>shudson@thelumastory.com;kkapoor@thelumastory.com</members_value>
-        </persona_27>
+        </persona_19>
 
     </magentoese_autofill>
   </default>
