@@ -3,12 +3,14 @@
     "type": "magento2-module",
     "require": {
         "magento/framework": "*",
-        "magentoese/module-autofill": "*"
+        "magentoese/module-autofill": "*",
+        "magentoese/module-customer-sample-data": "*"
     },
     "autoload": {
         "files": [ "registration.php" ],
         "psr-4": {
             "MagentoEse\\AutoFillSampleData\\": ""
         }
-    }
+    },
+    "version": "1.0.0"
 }
